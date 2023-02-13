@@ -1,0 +1,2 @@
+#!/bin/bash
+count=$(grep -c "bin" /etc/passwd 2>/dev/null)
