@@ -1,0 +1,2 @@
+#!/bin/bash
+grep "root" /etc/passwd 2>/dev/null || echo "Error: File /etc/passwd does not exist."
